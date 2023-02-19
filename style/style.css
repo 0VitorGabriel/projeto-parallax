@@ -4,13 +4,12 @@
     margin: 0px;
     padding: 0px;
 }
-html, body {
-    min-height: 100vh;
+html, body {   
     font-family: sans-serif;
 }
 
 header, footer {
-    height: 450px;
+    min-height: 100vh;
 
     background-color: black;
     background-image: url(../imgs/wallpaper3.jpg);
@@ -23,30 +22,8 @@ header, footer {
     position: relative; 
 }
 
-section {
-    position: relative;
-}
-
-section.conteudo_diferente {
-    background-color: #e7e6e6;
-    padding: 80px;
-    opacity: 0.60;
-    line-height: 30px;
-}
-
-section.conteudo{
-    color: #ddd;
-    background-color: #282E34;
-
-    padding: 80px;
-
-    line-height: 30px;
-}
-
-h3 {
-    padding-bottom: 20px;
-    font-size: 24px;
-    text-align: center;
+h2 {
+    font-weight: 400;
 }
 
 header > h2 {
@@ -65,6 +42,50 @@ header > h2 {
     background-color: #111111;
     color: #ffffff;
 
+    text-align: center;
+}
+
+section {
+    position: relative;
+}
+
+section.conteudo_diferente {
+    background-color: #e7e6e6;
+    padding: 80px;
+    opacity: 0.60;
+    line-height: 30px;
+}
+
+section.conteudo{
+    color: #dddddd;
+    background-color: #282E34;
+
+    padding: 80px;
+
+    line-height: 30px;
+}
+
+section.imagem > h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 400px;
+    margin: auto;
+
+    letter-spacing: 8px;
+    padding: 18px;
+
+    color: #ffffff;
+
+    text-align: center;
+}
+
+section > h3 {
+    padding-bottom: 20px;
+    font-size: 24px;
     text-align: center;
 }
 
@@ -87,27 +108,11 @@ footer > h2 {
     text-align: center;
 }
 
-section.imagem > h2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
 
-    transform: translate(-50%, -50%);
-
-    width: 400px;
-    margin: auto;
-
-    letter-spacing: 8px;
-    padding: 18px;
-
-    color: #ffffff;
-
-    text-align: center;
-}
 
 #imagem1{
     opacity: 0.70; 
-    height: 450px;
+    height: 400px;
 
     background-image: url(../imgs/wallpaper2.jpg);
     background-repeat: no-repeat;
@@ -119,7 +124,7 @@ section.imagem > h2 {
 
 #imagem2 {
     opacity: 0.70; 
-    height: 450px;
+    height: 400px;
 
     background-image: url(../imgs/wallpaper1.jpg);
     background-repeat: no-repeat;
