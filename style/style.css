@@ -20,16 +20,25 @@ header, footer {
     opacity: 0.70;  
 }
 
-section.conteudo {
-    padding: 50px 80px;
+section.conteudo_diferente {
+    background-color: #e7e6e6;
+    padding: 80px;
+    opacity: 0.60;
+    line-height: 30px;
+}
+
+section.conteudo{
+    color: #ddd;
+    background-color: #282e34;
+    padding: 80px;
     opacity: 0.60;
     line-height: 30px;
 }
 
 h3 {
-    font-size: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
     text-align: center;
-    /*margin: 50px;*/
 }
 
 h2 {
