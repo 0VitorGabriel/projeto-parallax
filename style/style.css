@@ -12,7 +12,7 @@ header, footer {
     min-height: 100vh;
 
     background-color: black;
-    background-image: url(../imgs/wallpaper3.jpg);
+    background-image: url(../imgs/wallpaper1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -20,29 +20,6 @@ header, footer {
     opacity: 0.70; 
 
     position: relative; 
-}
-
-h2 {
-    font-weight: 400;
-}
-
-header > h2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
-
-    width: 400px;
-    margin: auto;
-
-    letter-spacing: 8px;
-    padding: 18px;
-
-    background-color: #111111;
-    color: #ffffff;
-
-    text-align: center;
 }
 
 section {
@@ -65,7 +42,31 @@ section.conteudo{
     line-height: 30px;
 }
 
-section.imagem > h2 {
+section.imagem {
+    opacity: 0.70; 
+    height: 400px;
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#imagem1{
+    background-image: url(../imgs/wallpaper2.jpg);
+}
+
+section#imagem2 {
+    background-image: url(../imgs/wallpaper3.jpg);
+}
+
+section > h3 {
+    padding-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+h2 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -81,15 +82,10 @@ section.imagem > h2 {
     color: #ffffff;
 
     text-align: center;
+    font-weight: 400;
 }
 
-section > h3 {
-    padding-bottom: 20px;
-    font-size: 24px;
-    text-align: center;
-}
-
-footer > h2 {
+h2.titulo_fim {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -106,29 +102,4 @@ footer > h2 {
     color: #ffffff;
 
     text-align: center;
-}
-
-#imagem1{
-    opacity: 0.70; 
-    height: 400px;
-
-    background-image: url(../imgs/wallpaper2.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-
-}
-
-#imagem2 {
-    opacity: 0.70; 
-    height: 400px;
-
-    background-image: url(../imgs/wallpaper1.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-
-    opacity: 0.70;
 }
